@@ -77,17 +77,3 @@ test('TC-05 User enters a password but leaves the username field empty.', async 
         contentType: 'image/png',
     });
 });
-
-test('TC-06 User enters both correct username and password.', async ({ page }) => {
-    await loginPage.login('standard_user', 'secret_sauce');
-
-    await expect(loginPage.productsTitle())
-        .toHaveText('Products');
-
-    const screenshot = await page.screenshot();
-
-    await test.info().attach('Products page', {
-        body: screenshot,
-        contentType: 'image/png',
-    });
-});

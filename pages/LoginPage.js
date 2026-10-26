@@ -21,3 +21,5 @@ export class LoginPage {
         return this.page.locator('[data-test="title"]');
     }
 }
+
+// Every action you see in the Login Page. 

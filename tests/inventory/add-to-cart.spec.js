@@ -22,7 +22,7 @@ test('TC-01 User adds a single item to the cart.', async ({ page }) => {
     const productsPage = new ProductsPage(page);
     
     // Click on the "Add to cart" button for the first item
-    await productsPage.addBackpackToCart();
+    await productsPage.addItemToCart('sauce-labs-backpack');
 
     const screenshot = await page.screenshot();
 
