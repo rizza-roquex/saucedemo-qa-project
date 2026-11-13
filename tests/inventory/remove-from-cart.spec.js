@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
 
     await loginPage.openLoginPage();
     await loginPage.login('performance_glitch_user', 'secret_sauce');
-    await expect(loginPage.productsTitle()).toHaveText('Products')
+    await expect(loginPage.productsTitle).toHaveText('Products')
 })
 test('Adding of items.', async ({ page }) => {
     await productsPage.addItemToCart('sauce-labs-backpack');

@@ -11,7 +11,7 @@ test.beforeEach(async ({ page }) => {
 test('TC-01 User enters valid username and password.', async ({ page }) => {
     await loginPage.login('standard_user', 'secret_sauce');
 
-    await expect(loginPage.productsTitle())
+    await expect(loginPage.productsTitle)
         .toHaveText('Products');    
 
     const screenshot = await page.screenshot();

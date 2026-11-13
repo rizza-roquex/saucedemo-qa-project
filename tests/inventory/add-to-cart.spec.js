@@ -13,7 +13,7 @@ test.beforeEach(async ({ page }) => {
     // Log in with valid credentials before each test
     await loginPage.login('standard_user', 'secret_sauce');
 
-    await expect(loginPage.productsTitle())
+    await expect(loginPage.productsTitle)
         .toHaveText('Products');
 });
 
