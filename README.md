@@ -155,4 +155,4 @@ As I continue to grow my automation skills, I plan to enhance this project with:
 *Software QA Tester | Aspiring QA Automation Engineer*
 
 * **LinkedIn:** https://www.linkedin.com/in/rizzafranchescaroque/
-* **GitHub:** [Your GitHub Profile URL]
+* **GitHub:** https://github.com/rizza-roquex
