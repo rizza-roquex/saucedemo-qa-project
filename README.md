@@ -151,8 +151,8 @@ As I continue to grow my automation skills, I plan to enhance this project with:
 
 ## 👤 Author
 
-**{Rizza Roque}**  
+**Rizza Roque**  
 *Software QA Tester | Aspiring QA Automation Engineer*
 
-* **LinkedIn:** [[Your LinkedIn Profile URL](https://www.linkedin.com/in/rizzafranchescaroque/)]
+* **LinkedIn:** https://www.linkedin.com/in/rizzafranchescaroque/
 * **GitHub:** [Your GitHub Profile URL]
